@@ -1,0 +1,5 @@
+Performance of Five Stage:
+#Cycles       -> 11
+#Instructions -> 5
+CPI           -> 2.2
+IPC           -> 0.454545
