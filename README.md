@@ -9,13 +9,13 @@ Performance metrics such as CPI and IPC are measured and reported
 
 # Feature
 
-Single-Cycle Processor
+Single-Cycle Processor （Phase1）
 
 Executes one instruction per clock cycle
 
 Simple baseline implementation for performance comparison
 
-Five-Stage Pipelined Processor
+Five-Stage Pipelined Processor （Phase2）
 
 Instruction Fetch (IF), Instruction Decode/Register Read (ID/RR), Execute (EX), Memory Access (MEM), Write Back (WB)
 
