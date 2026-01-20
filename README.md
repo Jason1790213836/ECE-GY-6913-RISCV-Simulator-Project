@@ -38,3 +38,15 @@ Performance Monitoring
 Measures Total Cycles, CPI, and IPC
 
 Compare single-cycle vs pipelined execution
+
+# This is the description for the difference between the single cycle cpu and the five-stage processor.
+This is the pipeline with the exception diagram.
+<img width="553" height="311" alt="image" src="https://github.com/user-attachments/assets/5b268c3a-e139-4cdd-9b41-a92208e2a247" />
+
+2: The first single cycle test code is only four cycles, but each cycle is really long. Compared to the five-stage pipeline, which has 10 cycles, its cycle number is bigger but the cycle time is smaller due to its division into five stages.
+
+The second test code in the five-stage pipeline is only like 0.46, but the single-cycle stage is like 37. As I said before, the pipeline is much better because every cycle duration is greatly reduced.
+
+The third test code is 0–52 cycles in the pipeline because it implemented the forwarding module and hazard detection module. The single-cycle of this test is 33 cycles. I think the pipeline is better because the CPI is 1.5, but the cycle time is reduced.
+
+For the extra point, I think we can implement branch anticipation, which can greatly save the flush time and further reduce the cycle count.
