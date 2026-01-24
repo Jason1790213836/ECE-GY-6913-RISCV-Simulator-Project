@@ -40,9 +40,7 @@ Measures Total Cycles, CPI, and IPC
 Compare single-cycle vs pipelined execution
 
 # This is the description for the difference between the single cycle cpu and the five-stage processor.
-
 This is the pipeline with the exception diagram.
-
 <img width="553" height="311" alt="image" src="https://github.com/user-attachments/assets/5b268c3a-e139-4cdd-9b41-a92208e2a247" />
 
 2: The first single cycle test code is only four cycles, but each cycle is really long. Compared to the five-stage pipeline, which has 10 cycles, its cycle number is bigger but the cycle time is smaller due to its division into five stages.
