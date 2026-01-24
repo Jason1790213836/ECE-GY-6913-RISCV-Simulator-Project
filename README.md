@@ -24,7 +24,9 @@ Pipeline registers with NOP bits for stalling and flushing
 Supports EX→ID and MEM→ID forwarding
 
 Stalls automatically when forwarding cannot resolve RAW hazards
-
+、
+、、、、、
+、、、、、、、
 Control Hazard Handling
 
 Branches predicted not-taken
